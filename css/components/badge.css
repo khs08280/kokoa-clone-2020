@@ -24,3 +24,20 @@
   font-weight: 600;
   color: tomato;
 }
+
+@keyframes coinRolling {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale(0.8) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.ani {
+  animation: coinRolling 2s ease-in-out infinite;
+}
